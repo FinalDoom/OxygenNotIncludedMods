@@ -15,6 +15,7 @@ namespace GrindUpMetals
             Tag sand_tag = SimHashes.Sand.CreateTag();
 
             List<Element> list = new List<Element>() {
+                ElementLoader.GetElement(SimHashes.CobaltOre.CreateTag()),
                 ElementLoader.GetElement(SimHashes.Cuprite.CreateTag()),
                 ElementLoader.GetElement(SimHashes.AluminumOre.CreateTag()),
                 ElementLoader.GetElement(SimHashes.GoldAmalgam.CreateTag()),
